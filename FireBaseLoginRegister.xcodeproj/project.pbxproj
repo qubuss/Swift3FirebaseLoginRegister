@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		993E33411E4B76E900D13CC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993E33401E4B76E900D13CC0 /* AppDelegate.swift */; };
-		993E33431E4B76E900D13CC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993E33421E4B76E900D13CC0 /* ViewController.swift */; };
+		993E33431E4B76E900D13CC0 /* MessagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993E33421E4B76E900D13CC0 /* MessagesController.swift */; };
 		993E33461E4B76E900D13CC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 993E33441E4B76E900D13CC0 /* Main.storyboard */; };
 		993E33481E4B76E900D13CC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 993E33471E4B76E900D13CC0 /* Assets.xcassets */; };
 		993E334B1E4B76E900D13CC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 993E33491E4B76E900D13CC0 /* LaunchScreen.storyboard */; };
+		993E33541E4B802D00D13CC0 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993E33531E4B802D00D13CC0 /* LoginController.swift */; };
+		993E33561E4BC54E00D13CC0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 993E33551E4BC54E00D13CC0 /* GoogleService-Info.plist */; };
+		997B19D21E4C8DB40004F5CD /* NewMessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B19D11E4C8DB40004F5CD /* NewMessageTableViewController.swift */; };
+		997B19D51E4C93DB0004F5CD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B19D41E4C93DB0004F5CD /* User.swift */; };
+		997B19D71E4CA1D80004F5CD /* LoginController+handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B19D61E4CA1D80004F5CD /* LoginController+handlers.swift */; };
+		997B19DA1E4CD07A0004F5CD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B19D91E4CD07A0004F5CD /* Extensions.swift */; };
+		B32F35DF73FFABB651226A36 /* Pods_FireBaseLoginRegister.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF716C0E69AC2F71E8C76B5C /* Pods_FireBaseLoginRegister.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E2BB721BA373C28566FC089 /* Pods-FireBaseLoginRegister.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireBaseLoginRegister.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireBaseLoginRegister/Pods-FireBaseLoginRegister.release.xcconfig"; sourceTree = "<group>"; };
 		993E333D1E4B76E900D13CC0 /* FireBaseLoginRegister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireBaseLoginRegister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		993E33401E4B76E900D13CC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		993E33421E4B76E900D13CC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		993E33421E4B76E900D13CC0 /* MessagesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesController.swift; sourceTree = "<group>"; };
 		993E33451E4B76E900D13CC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		993E33471E4B76E900D13CC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		993E334A1E4B76E900D13CC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		993E334C1E4B76E900D13CC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		993E33531E4B802D00D13CC0 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		993E33551E4BC54E00D13CC0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		997B19D11E4C8DB40004F5CD /* NewMessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMessageTableViewController.swift; sourceTree = "<group>"; };
+		997B19D41E4C93DB0004F5CD /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		997B19D61E4CA1D80004F5CD /* LoginController+handlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LoginController+handlers.swift"; sourceTree = "<group>"; };
+		997B19D91E4CD07A0004F5CD /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B642952C570B38824D476A87 /* Pods-FireBaseLoginRegister.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireBaseLoginRegister.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireBaseLoginRegister/Pods-FireBaseLoginRegister.debug.xcconfig"; sourceTree = "<group>"; };
+		CF716C0E69AC2F71E8C76B5C /* Pods_FireBaseLoginRegister.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireBaseLoginRegister.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B32F35DF73FFABB651226A36 /* Pods_FireBaseLoginRegister.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3210BDA64629AD894AEA9346 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B642952C570B38824D476A87 /* Pods-FireBaseLoginRegister.debug.xcconfig */,
+				4E2BB721BA373C28566FC089 /* Pods-FireBaseLoginRegister.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		42CFC476EB02283E95D778EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF716C0E69AC2F71E8C76B5C /* Pods_FireBaseLoginRegister.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		993E33341E4B76E900D13CC0 = {
 			isa = PBXGroup;
 			children = (
 				993E333F1E4B76E900D13CC0 /* FireBaseLoginRegister */,
 				993E333E1E4B76E900D13CC0 /* Products */,
+				3210BDA64629AD894AEA9346 /* Pods */,
+				42CFC476EB02283E95D778EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +90,44 @@
 		993E333F1E4B76E900D13CC0 /* FireBaseLoginRegister */ = {
 			isa = PBXGroup;
 			children = (
+				997B19D81E4CD0630004F5CD /* Helpers */,
+				997B19D31E4C93C40004F5CD /* Model */,
+				993E33521E4B801500D13CC0 /* Controller */,
 				993E33401E4B76E900D13CC0 /* AppDelegate.swift */,
-				993E33421E4B76E900D13CC0 /* ViewController.swift */,
 				993E33441E4B76E900D13CC0 /* Main.storyboard */,
 				993E33471E4B76E900D13CC0 /* Assets.xcassets */,
 				993E33491E4B76E900D13CC0 /* LaunchScreen.storyboard */,
 				993E334C1E4B76E900D13CC0 /* Info.plist */,
+				993E33551E4BC54E00D13CC0 /* GoogleService-Info.plist */,
 			);
 			path = FireBaseLoginRegister;
+			sourceTree = "<group>";
+		};
+		993E33521E4B801500D13CC0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				993E33531E4B802D00D13CC0 /* LoginController.swift */,
+				993E33421E4B76E900D13CC0 /* MessagesController.swift */,
+				997B19D11E4C8DB40004F5CD /* NewMessageTableViewController.swift */,
+				997B19D61E4CA1D80004F5CD /* LoginController+handlers.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		997B19D31E4C93C40004F5CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				997B19D41E4C93DB0004F5CD /* User.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		997B19D81E4CD0630004F5CD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				997B19D91E4CD07A0004F5CD /* Extensions.swift */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +137,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 993E334F1E4B76E900D13CC0 /* Build configuration list for PBXNativeTarget "FireBaseLoginRegister" */;
 			buildPhases = (
+				1B38DDF4888B912493C2B006 /* [CP] Check Pods Manifest.lock */,
 				993E33391E4B76E900D13CC0 /* Sources */,
 				993E333A1E4B76E900D13CC0 /* Frameworks */,
 				993E333B1E4B76E900D13CC0 /* Resources */,
+				82BB5186E267C0269BA48B42 /* [CP] Embed Pods Frameworks */,
+				6F5D52E345826857717B33E7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				993E334B1E4B76E900D13CC0 /* LaunchScreen.storyboard in Resources */,
+				993E33561E4BC54E00D13CC0 /* GoogleService-Info.plist in Resources */,
 				993E33481E4B76E900D13CC0 /* Assets.xcassets in Resources */,
 				993E33461E4B76E900D13CC0 /* Main.storyboard in Resources */,
 			);
@@ -132,13 +202,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B38DDF4888B912493C2B006 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6F5D52E345826857717B33E7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireBaseLoginRegister/Pods-FireBaseLoginRegister-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82BB5186E267C0269BA48B42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireBaseLoginRegister/Pods-FireBaseLoginRegister-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		993E33391E4B76E900D13CC0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				993E33431E4B76E900D13CC0 /* ViewController.swift in Sources */,
+				997B19D21E4C8DB40004F5CD /* NewMessageTableViewController.swift in Sources */,
+				993E33431E4B76E900D13CC0 /* MessagesController.swift in Sources */,
+				997B19D71E4CA1D80004F5CD /* LoginController+handlers.swift in Sources */,
+				993E33541E4B802D00D13CC0 /* LoginController.swift in Sources */,
+				997B19D51E4C93DB0004F5CD /* User.swift in Sources */,
 				993E33411E4B76E900D13CC0 /* AppDelegate.swift in Sources */,
+				997B19DA1E4CD07A0004F5CD /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,12 +382,13 @@
 		};
 		993E33501E4B76E900D13CC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B642952C570B38824D476A87 /* Pods-FireBaseLoginRegister.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = N36TCNTU2L;
 				INFOPLIST_FILE = FireBaseLoginRegister/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = qubuss.FireBaseLoginRegister;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qubuss.FireBaseLoginRegister;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -272,12 +396,13 @@
 		};
 		993E33511E4B76E900D13CC0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E2BB721BA373C28566FC089 /* Pods-FireBaseLoginRegister.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = N36TCNTU2L;
 				INFOPLIST_FILE = FireBaseLoginRegister/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = qubuss.FireBaseLoginRegister;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qubuss.FireBaseLoginRegister;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -302,6 +427,7 @@
 				993E33511E4B76E900D13CC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
